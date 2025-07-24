@@ -46,3 +46,41 @@ A beautifully designed Android app that displays a list of recipes with images. 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/recipe-book-app.git
+   ## 🚀 How to Run
+
+2. Open in **Android Studio**.
+3. Build the project.
+4. Run it on an emulator or a physical Android device.
+
+---
+
+## 🗂️ Project Structure
+RecipeBook/
+├── app/
+│ ├── java/com/example/recipebook/
+│ │ ├── MainActivity.java
+│ │ ├── RecipeAdapter.java
+│ │ ├── RecipeDetailActivity.java
+│ │ └── Recipe.java
+│ ├── res/
+│ │ ├── layout/
+│ │ │ ├── activity_main.xml
+│ │ │ ├── recipe_item.xml
+│ │ │ └── recipe_detail.xml
+│ │ ├── drawable/
+│ │ │ └── (images of dishes)
+│ │ └── mipmap/
+│ │ └── app_icon.png
+
+
+---
+
+##  Future Improvements
+
+- 🔍 Add **search functionality** to quickly find recipes
+- ⭐ Allow users to **save favorite recipes**
+- 🔗 Load recipes from an **API** or local **JSON file**
+- 🥗 Add **vegetarian / non-veg filters**
+
+
+
